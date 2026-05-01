@@ -1,0 +1,30 @@
+Animated Premium / Executive Presentation Version
+================================================
+
+Main changes
+------------
+- Reverted the active UI font to Tajawal across the project.
+- Kept the current executive/royal design direction.
+- Rebuilt the hero section as a more interactive premium presentation experience.
+- Added mouse-reactive lighting in the hero background.
+- Added animated data sweep, orbit system, floating KPI cards, animated progress bars, premium CTA shimmer, and moving topic strip.
+- Preserved the same content flow, sections, tabs, Arabic/English switching, and project structure.
+- Used the requested palette:
+  - Saudi Green: #006C35
+  - White: #FFFFFF
+  - Gold: #C5A358
+  - Purple: #913191
+
+Validation
+----------
+- npx tsc -p tsconfig.json --noEmit: success
+- npm run build: success
+
+Run locally
+-----------
+1. npm ci
+2. npm run dev
+
+Build
+-----
+npm run build

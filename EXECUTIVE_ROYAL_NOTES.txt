@@ -1,0 +1,49 @@
+Executive / Royal UI Redesign
+=============================
+
+Design direction
+----------------
+- Built a more premium, leadership-facing version of the proposal website.
+- Preserved the existing section order, content structure, Arabic/English switching, and functional flow.
+- Shifted the look from calm government-formal to executive/royal:
+  - deep emerald / Saudi green atmosphere
+  - stronger gold highlights
+  - richer shadows and larger premium cards
+  - controlled purple accent for transformation / prestige
+  - elevated hero section and navigation
+
+Palette used
+------------
+- Saudi green: #006C35
+- White: #FFFFFF
+- Gold: #C5A358
+- Purple: #913191
+
+Main files updated
+------------------
+- src/styles.css
+- src/lib/constants.ts
+- src/components/proposal/TopNav.tsx
+- src/components/proposal/Hero.tsx
+- src/components/proposal/Tabs.tsx
+- src/components/proposal/SectionHeading.tsx
+- src/components/proposal/IntroductionTab.tsx
+- src/components/proposal/DiagnosisTab.tsx
+- src/components/proposal/PillarsDeep.tsx
+- src/components/proposal/UrgentCases.tsx
+- src/components/proposal/TeamSection.tsx
+- src/components/proposal/Footer.tsx
+
+Verification
+------------
+- npm run build: success
+
+Run locally
+-----------
+1) npm ci
+2) npm run dev
+
+Build
+-----
+- npm run build
+- npm run preview

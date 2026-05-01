@@ -1,0 +1,15 @@
+Animated Premium Revision
+=========================
+
+Applied user notes:
+- Removed visible marketing labels such as Executive/Royal edition and leadership deck from the top navigation.
+- Removed the moving keyword strip / marquee behavior.
+- Kept Tajawal as the active UI font.
+- Kept the color treatment and visual identity from the animated premium version.
+- Removed the lower KPI dock from the hero and integrated its summary into the main tabs/navigation area below the hero.
+- Added snap-like behavior: when the user scrolls down from the hero, the page moves past the hero to the project content.
+- Kept the down button/cue for direct transition to content.
+- Added the logo again in the footer in a larger visible size.
+
+Build note:
+- The build output was generated under dist/ and Vite reported successful client and SSR builds.

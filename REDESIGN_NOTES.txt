@@ -1,0 +1,50 @@
+Saudi Vision Project UI Redesign
+================================
+
+What was changed
+----------------
+- Preserved the same information flow, sections, and content structure.
+- Reworked the visual design to a more modern, executive presentation style.
+- Applied the requested Saudi identity palette:
+  - Green:   #006C35
+  - White:   #FFFFFF
+  - Gold:    #C5A358
+  - Purple:  #913191
+- Added a more premium hero section, glassmorphism navigation, refined tab navigation, and improved cards/section panels.
+- Made purple a visible but controlled accent, so it enhances the government-modern feel without overpowering the Saudi green identity.
+- Improved visual hierarchy, spacing, shadows, borders, and readability.
+- Kept Arabic/English language switching intact.
+
+Important technical adjustment
+------------------------------
+- Updated package.json to use @lovable.dev/vite-tanstack-config ^1.2.0 so npm install / npm ci can work without the private package auth issue.
+
+Main files updated
+------------------
+- src/styles.css
+- src/components/proposal/TopNav.tsx
+- src/components/proposal/Hero.tsx
+- src/components/proposal/Tabs.tsx
+- src/components/proposal/SectionHeading.tsx
+- src/components/proposal/IntroductionTab.tsx
+- src/components/proposal/DiagnosisTab.tsx
+- src/components/proposal/PillarsDeep.tsx
+- src/components/proposal/UrgentCases.tsx
+- src/components/proposal/TeamSection.tsx
+- src/components/proposal/Footer.tsx
+- package.json
+
+Build status
+------------
+- npm ci: success
+- npm run build: success
+
+Run locally
+-----------
+1) npm ci
+2) npm run dev
+
+Build
+-----
+- npm run build
+- npm run preview

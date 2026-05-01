@@ -1,0 +1,46 @@
+Saudi Government-Style UI Version
+=================================
+
+Direction
+---------
+This version was redesigned to feel closer to a formal Saudi government digital presentation:
+- Cleaner white backgrounds and official green leadership.
+- Less decorative glassmorphism and fewer heavy gradients.
+- More structured navigation, rectangular tabs, formal cards, clear borders, and controlled shadows.
+- Gold used for formal separators and emphasis.
+- Purple used only as a limited modern transformation accent, not as a dominant identity color.
+
+Requested palette
+-----------------
+Green:  #006C35
+White:  #FFFFFF
+Gold:   #C5A358
+Purple: #913191
+
+Main updated files
+------------------
+- src/styles.css
+- src/components/proposal/TopNav.tsx
+- src/components/proposal/Hero.tsx
+- src/components/proposal/Tabs.tsx
+- src/components/proposal/SectionHeading.tsx
+- src/components/proposal/IntroductionTab.tsx
+- src/components/proposal/DiagnosisTab.tsx
+- src/components/proposal/PillarsDeep.tsx
+- src/components/proposal/UrgentCases.tsx
+- src/components/proposal/TeamSection.tsx
+- src/components/proposal/Footer.tsx
+
+Verification
+------------
+- npm run build: success
+
+Run locally
+-----------
+1) npm ci
+2) npm run dev
+
+Build
+-----
+- npm run build
+- npm run preview
