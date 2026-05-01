@@ -33,7 +33,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "A national plan to build the football development system Saudi Arabia deserves, submitted to the Secretary General of the Saudi Arabian Football Federation, April 2026.",
+          "A national plan to build the football development system Saudi Arabia deserves, submitted to the Secretary General of the Saudi Arabian Football Federation, May 2026.",
       },
       { name: "author", content: "Saudi Youth Football Development Proposal" },
       { property: "og:title", content: "Saudi Football Model: A Proposal to SAFF" },

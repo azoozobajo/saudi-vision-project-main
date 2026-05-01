@@ -5,6 +5,7 @@ import { Hero } from "@/components/proposal/Hero";
 import { Tabs } from "@/components/proposal/Tabs";
 import { Footer } from "@/components/proposal/Footer";
 import { ReadingProgress } from "@/components/proposal/ReadingProgress";
+import { SectionSnapController } from "@/components/proposal/SectionSnapController";
 import { Toaster } from "@/components/ui/sonner";
 
 export const Route = createFileRoute("/")({
@@ -14,7 +15,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A national plan to build the football development system Saudi Arabia deserves. Submitted to the Secretary General of SAFF, April 2026.",
+          "A national plan to build the football development system Saudi Arabia deserves. Submitted to the Secretary General of SAFF, May 2026.",
       },
       {
         property: "og:title",
@@ -49,8 +50,9 @@ function Shell() {
       className={`min-h-screen bg-white ${isAr ? "font-arabic" : ""}`}
     >
       <ReadingProgress />
+      <SectionSnapController />
       <TopNav />
-      <main>
+      <main className="pt-[5.5rem]">
         <Hero />
         <Tabs />
       </main>

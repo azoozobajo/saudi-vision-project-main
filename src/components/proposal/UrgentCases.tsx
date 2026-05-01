@@ -35,7 +35,7 @@ export function UrgentCases() {
             <div className="p-6 sm:p-8">
               <div className={`rounded-2xl border border-[var(--color-gold)]/24 bg-white/90 p-5 ${lang === "ar" ? "border-r-4" : "border-l-4"} border-[var(--color-gold)]`}>
                 <p className="eyebrow mb-2 !text-[var(--color-navy)]">{te("whatLabel", lang)}</p>
-                <p className="max-w-3xl text-[15px] leading-8 text-[var(--color-ink)]">{c.what}</p>
+                <p className="max-w-3xl whitespace-pre-line text-[15px] leading-8 text-[var(--color-ink)]">{c.what}</p>
               </div>
 
               <div className="mt-6 grid gap-4 lg:grid-cols-3">

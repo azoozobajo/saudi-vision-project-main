@@ -152,7 +152,11 @@
 
 @layer base {
   * { border-color: var(--color-border); }
-  html { scroll-behavior: smooth; }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.75rem;
+    scroll-snap-type: y proximity;
+  }
   html, body, button, input, textarea, select { font-family: "Tajawal", ui-sans-serif, system-ui, sans-serif; }
 
   body {
@@ -248,6 +252,12 @@
   }
 
   .gov-container { width: min(100% - 2rem, 82rem); margin-inline: auto; }
+
+  .snap-section {
+    scroll-margin-top: 5.75rem;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
 
   .royal-surface {
     border: 1px solid rgba(197,163,88,0.24);

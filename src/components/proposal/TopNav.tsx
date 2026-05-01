@@ -15,7 +15,7 @@ export function TopNav() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 px-3 pt-3 sm:px-5">
+    <header className="fixed inset-x-0 top-0 z-50 bg-[var(--color-cream)]/96 px-3 pt-0.5 pb-1 backdrop-blur-md sm:px-5">
       <div
         className={`royal-surface mx-auto flex max-w-7xl items-center justify-between gap-4 rounded-[28px] transition-all duration-300 ${
           scrolled ? "px-4 py-3" : "px-5 py-4"
